@@ -1,0 +1,742 @@
+[
+  {
+    "cases": [
+      "siglent.sdg2042x|B|FunctionGeneratorOutputEnable-0",
+      "siglent.sdg2042x|B|FunctionGeneratorOutputEnable-1",
+      "siglent.sdg2042x|B|FunctionGeneratorOutputEnable-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.sdg2042x",
+    "negativeCases": [
+      "siglent.sdg2042x|B|FunctionGeneratorOutputEnable-0-transport-failure"
+    ],
+    "operation": "FunctionGeneratorOutputEnable"
+  },
+  {
+    "cases": [
+      "siglent.sdg2042x|B|FunctionGeneratorReadFrequency-0",
+      "siglent.sdg2042x|B|FunctionGeneratorReadFrequency-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.sdg2042x",
+    "negativeCases": [
+      "siglent.sdg2042x|B|FunctionGeneratorReadFrequency-0-transport-failure"
+    ],
+    "operation": "FunctionGeneratorReadFrequency"
+  },
+  {
+    "cases": [
+      "siglent.sdg2042x|B|FunctionGeneratorSetAmplitude-0",
+      "siglent.sdg2042x|B|FunctionGeneratorSetAmplitude-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.sdg2042x",
+    "negativeCases": [
+      "siglent.sdg2042x|B|FunctionGeneratorSetAmplitude-0-transport-failure"
+    ],
+    "operation": "FunctionGeneratorSetAmplitude"
+  },
+  {
+    "cases": [
+      "siglent.sdg2042x|B|FunctionGeneratorSetBurstCount-0",
+      "siglent.sdg2042x|B|FunctionGeneratorSetBurstCount-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.sdg2042x",
+    "negativeCases": [
+      "siglent.sdg2042x|B|FunctionGeneratorSetBurstCount-0-transport-failure"
+    ],
+    "operation": "FunctionGeneratorSetBurstCount"
+  },
+  {
+    "cases": [
+      "siglent.sdg2042x|B|FunctionGeneratorSetBurstState-0",
+      "siglent.sdg2042x|B|FunctionGeneratorSetBurstState-1",
+      "siglent.sdg2042x|B|FunctionGeneratorSetBurstState-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.sdg2042x",
+    "negativeCases": [
+      "siglent.sdg2042x|B|FunctionGeneratorSetBurstState-0-transport-failure"
+    ],
+    "operation": "FunctionGeneratorSetBurstState"
+  },
+  {
+    "cases": [
+      "siglent.sdg2042x|B|FunctionGeneratorSetBurstTriggerSource-0",
+      "siglent.sdg2042x|B|FunctionGeneratorSetBurstTriggerSource-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.sdg2042x",
+    "negativeCases": [
+      "siglent.sdg2042x|B|FunctionGeneratorSetBurstTriggerSource-0-transport-failure"
+    ],
+    "operation": "FunctionGeneratorSetBurstTriggerSource"
+  },
+  {
+    "cases": [
+      "siglent.sdg2042x|B|FunctionGeneratorSetDutyCycle-0",
+      "siglent.sdg2042x|B|FunctionGeneratorSetDutyCycle-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.sdg2042x",
+    "negativeCases": [
+      "siglent.sdg2042x|B|FunctionGeneratorSetDutyCycle-0-transport-failure"
+    ],
+    "operation": "FunctionGeneratorSetDutyCycle"
+  },
+  {
+    "cases": [
+      "siglent.sdg2042x|B|FunctionGeneratorSetFrequency-0",
+      "siglent.sdg2042x|B|invalid-FunctionGeneratorSetFrequency",
+      "siglent.sdg2042x|B|FunctionGeneratorSetFrequency-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.sdg2042x",
+    "negativeCases": [
+      "siglent.sdg2042x|B|invalid-FunctionGeneratorSetFrequency",
+      "siglent.sdg2042x|B|FunctionGeneratorSetFrequency-0-transport-failure"
+    ],
+    "operation": "FunctionGeneratorSetFrequency"
+  },
+  {
+    "cases": [
+      "siglent.sdg2042x|B|FunctionGeneratorSetLoad-0",
+      "siglent.sdg2042x|B|FunctionGeneratorSetLoad-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.sdg2042x",
+    "negativeCases": [
+      "siglent.sdg2042x|B|FunctionGeneratorSetLoad-0-transport-failure"
+    ],
+    "operation": "FunctionGeneratorSetLoad"
+  },
+  {
+    "cases": [
+      "siglent.sdg2042x|B|FunctionGeneratorSetOffset-0",
+      "siglent.sdg2042x|B|FunctionGeneratorSetOffset-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.sdg2042x",
+    "negativeCases": [
+      "siglent.sdg2042x|B|FunctionGeneratorSetOffset-0-transport-failure"
+    ],
+    "operation": "FunctionGeneratorSetOffset"
+  },
+  {
+    "cases": [
+      "siglent.sdg2042x|B|FunctionGeneratorSetWaveform-0",
+      "siglent.sdg2042x|B|FunctionGeneratorSetWaveform-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.sdg2042x",
+    "negativeCases": [
+      "siglent.sdg2042x|B|FunctionGeneratorSetWaveform-0-transport-failure"
+    ],
+    "operation": "FunctionGeneratorSetWaveform"
+  },
+  {
+    "cases": [
+      "siglent.sdg2042x|B|QueryIdentity-0",
+      "siglent.sdg2042x|B|QueryIdentity-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.sdg2042x",
+    "negativeCases": [
+      "siglent.sdg2042x|B|QueryIdentity-0-transport-failure"
+    ],
+    "operation": "QueryIdentity"
+  },
+  {
+    "cases": [
+      "siglent.sdg2042x|B|Reset-0",
+      "siglent.sdg2042x|B|Reset-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.sdg2042x",
+    "negativeCases": [
+      "siglent.sdg2042x|B|Reset-0-transport-failure"
+    ],
+    "operation": "Reset"
+  },
+  {
+    "cases": [
+      "siglent.sdg2042x|B|Shutdown-0",
+      "siglent.sdg2042x|U|unknown-Shutdown",
+      "siglent.sdg2042x|B|Shutdown-0-transport-failure"
+    ],
+    "disposition": "explicit-inventory-binding-required",
+    "driver": "siglent.sdg2042x",
+    "negativeCases": [
+      "siglent.sdg2042x|U|unknown-Shutdown",
+      "siglent.sdg2042x|B|Shutdown-0-transport-failure"
+    ],
+    "operation": "Shutdown"
+  },
+  {
+    "cases": [
+      "siglent.sds1104x-e|B|OscilloscopeCaptureVoltageTrace-0",
+      "siglent.sds1104x-e|B|OscilloscopeCaptureVoltageTrace-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.sds1104x-e",
+    "negativeCases": [
+      "siglent.sds1104x-e|B|OscilloscopeCaptureVoltageTrace-0-transport-failure"
+    ],
+    "operation": "OscilloscopeCaptureVoltageTrace"
+  },
+  {
+    "cases": [
+      "siglent.sds1104x-e|B|OscilloscopeMeasureFrequency-0",
+      "siglent.sds1104x-e|B|OscilloscopeMeasureFrequency-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.sds1104x-e",
+    "negativeCases": [
+      "siglent.sds1104x-e|B|OscilloscopeMeasureFrequency-0-transport-failure"
+    ],
+    "operation": "OscilloscopeMeasureFrequency"
+  },
+  {
+    "cases": [
+      "siglent.sds1104x-e|B|OscilloscopeMeasureVpp-0",
+      "siglent.sds1104x-e|B|OscilloscopeMeasureVpp-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.sds1104x-e",
+    "negativeCases": [
+      "siglent.sds1104x-e|B|OscilloscopeMeasureVpp-0-transport-failure"
+    ],
+    "operation": "OscilloscopeMeasureVpp"
+  },
+  {
+    "cases": [
+      "siglent.sds1104x-e|B|OscilloscopeReadTimebaseScale-0",
+      "siglent.sds1104x-e|B|OscilloscopeReadTimebaseScale-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.sds1104x-e",
+    "negativeCases": [
+      "siglent.sds1104x-e|B|OscilloscopeReadTimebaseScale-0-transport-failure"
+    ],
+    "operation": "OscilloscopeReadTimebaseScale"
+  },
+  {
+    "cases": [
+      "siglent.sds1104x-e|B|OscilloscopeRun-0",
+      "siglent.sds1104x-e|B|OscilloscopeRun-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.sds1104x-e",
+    "negativeCases": [
+      "siglent.sds1104x-e|B|OscilloscopeRun-0-transport-failure"
+    ],
+    "operation": "OscilloscopeRun"
+  },
+  {
+    "cases": [
+      "siglent.sds1104x-e|B|OscilloscopeSetChannelCoupling-0",
+      "siglent.sds1104x-e|B|OscilloscopeSetChannelCoupling-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.sds1104x-e",
+    "negativeCases": [
+      "siglent.sds1104x-e|B|OscilloscopeSetChannelCoupling-0-transport-failure"
+    ],
+    "operation": "OscilloscopeSetChannelCoupling"
+  },
+  {
+    "cases": [
+      "siglent.sds1104x-e|B|OscilloscopeSetChannelDisplay-0",
+      "siglent.sds1104x-e|B|OscilloscopeSetChannelDisplay-1",
+      "siglent.sds1104x-e|B|OscilloscopeSetChannelDisplay-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.sds1104x-e",
+    "negativeCases": [
+      "siglent.sds1104x-e|B|OscilloscopeSetChannelDisplay-0-transport-failure"
+    ],
+    "operation": "OscilloscopeSetChannelDisplay"
+  },
+  {
+    "cases": [
+      "siglent.sds1104x-e|B|OscilloscopeSetChannelScale-0",
+      "siglent.sds1104x-e|B|invalid-OscilloscopeSetChannelScale",
+      "siglent.sds1104x-e|B|OscilloscopeSetChannelScale-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.sds1104x-e",
+    "negativeCases": [
+      "siglent.sds1104x-e|B|invalid-OscilloscopeSetChannelScale",
+      "siglent.sds1104x-e|B|OscilloscopeSetChannelScale-0-transport-failure"
+    ],
+    "operation": "OscilloscopeSetChannelScale"
+  },
+  {
+    "cases": [
+      "siglent.sds1104x-e|B|OscilloscopeSetTimebaseScale-0",
+      "siglent.sds1104x-e|B|OscilloscopeSetTimebaseScale-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.sds1104x-e",
+    "negativeCases": [
+      "siglent.sds1104x-e|B|OscilloscopeSetTimebaseScale-0-transport-failure"
+    ],
+    "operation": "OscilloscopeSetTimebaseScale"
+  },
+  {
+    "cases": [
+      "siglent.sds1104x-e|B|OscilloscopeSetTriggerLevel-0",
+      "siglent.sds1104x-e|B|OscilloscopeSetTriggerLevel-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.sds1104x-e",
+    "negativeCases": [
+      "siglent.sds1104x-e|B|OscilloscopeSetTriggerLevel-0-transport-failure"
+    ],
+    "operation": "OscilloscopeSetTriggerLevel"
+  },
+  {
+    "cases": [
+      "siglent.sds1104x-e|B|OscilloscopeSetTriggerSlope-0",
+      "siglent.sds1104x-e|B|OscilloscopeSetTriggerSlope-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.sds1104x-e",
+    "negativeCases": [
+      "siglent.sds1104x-e|B|OscilloscopeSetTriggerSlope-0-transport-failure"
+    ],
+    "operation": "OscilloscopeSetTriggerSlope"
+  },
+  {
+    "cases": [
+      "siglent.sds1104x-e|B|OscilloscopeSetTriggerSource-0",
+      "siglent.sds1104x-e|B|OscilloscopeSetTriggerSource-0-transport-failure",
+      "siglent.sds1104x-e|B|bound-source-CHAN3",
+      "siglent.sds1104x-e|B|bound-source-CHAN2"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.sds1104x-e",
+    "negativeCases": [
+      "siglent.sds1104x-e|B|OscilloscopeSetTriggerSource-0-transport-failure",
+      "siglent.sds1104x-e|B|bound-source-CHAN2"
+    ],
+    "operation": "OscilloscopeSetTriggerSource"
+  },
+  {
+    "cases": [
+      "siglent.sds1104x-e|B|OscilloscopeSingle-0",
+      "siglent.sds1104x-e|B|OscilloscopeSingle-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.sds1104x-e",
+    "negativeCases": [
+      "siglent.sds1104x-e|B|OscilloscopeSingle-0-transport-failure"
+    ],
+    "operation": "OscilloscopeSingle"
+  },
+  {
+    "cases": [
+      "siglent.sds1104x-e|B|OscilloscopeStop-0",
+      "siglent.sds1104x-e|B|OscilloscopeStop-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.sds1104x-e",
+    "negativeCases": [
+      "siglent.sds1104x-e|B|OscilloscopeStop-0-transport-failure"
+    ],
+    "operation": "OscilloscopeStop"
+  },
+  {
+    "cases": [
+      "siglent.sds1104x-e|B|QueryIdentity-0",
+      "siglent.sds1104x-e|B|QueryIdentity-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.sds1104x-e",
+    "negativeCases": [
+      "siglent.sds1104x-e|B|QueryIdentity-0-transport-failure"
+    ],
+    "operation": "QueryIdentity"
+  },
+  {
+    "cases": [
+      "siglent.sds1104x-e|B|Reset-0",
+      "siglent.sds1104x-e|B|Reset-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.sds1104x-e",
+    "negativeCases": [
+      "siglent.sds1104x-e|B|Reset-0-transport-failure"
+    ],
+    "operation": "Reset"
+  },
+  {
+    "cases": [
+      "siglent.sds1104x-e|B|Shutdown-0",
+      "siglent.sds1104x-e|B|Shutdown-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.sds1104x-e",
+    "negativeCases": [
+      "siglent.sds1104x-e|B|Shutdown-0-transport-failure"
+    ],
+    "operation": "Shutdown"
+  },
+  {
+    "cases": [
+      "siglent.spd3303x|B|DcPowerSupplyChannelCount-0",
+      "siglent.spd3303x|U|unknown-DcPowerSupplyChannelCount"
+    ],
+    "disposition": "explicit-inventory-binding-required",
+    "driver": "siglent.spd3303x",
+    "negativeCases": [
+      "siglent.spd3303x|U|unknown-DcPowerSupplyChannelCount"
+    ],
+    "operation": "DcPowerSupplyChannelCount"
+  },
+  {
+    "cases": [
+      "siglent.spd3303x|B|DcPowerSupplyOutputEnable-0",
+      "siglent.spd3303x|B|DcPowerSupplyOutputEnable-1",
+      "siglent.spd3303x|B|DcPowerSupplyOutputEnable-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.spd3303x",
+    "negativeCases": [
+      "siglent.spd3303x|B|DcPowerSupplyOutputEnable-0-transport-failure"
+    ],
+    "operation": "DcPowerSupplyOutputEnable"
+  },
+  {
+    "cases": [
+      "siglent.spd3303x|B|DcPowerSupplyOutputStateQuery-0",
+      "siglent.spd3303x|B|DcPowerSupplyOutputStateQuery-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.spd3303x",
+    "negativeCases": [
+      "siglent.spd3303x|B|DcPowerSupplyOutputStateQuery-0-transport-failure"
+    ],
+    "operation": "DcPowerSupplyOutputStateQuery"
+  },
+  {
+    "cases": [
+      "siglent.spd3303x|B|DcPowerSupplyOvpEnable-0",
+      "siglent.spd3303x|B|DcPowerSupplyOvpEnable-1",
+      "siglent.spd3303x|B|DcPowerSupplyOvpEnable-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.spd3303x",
+    "negativeCases": [
+      "siglent.spd3303x|B|DcPowerSupplyOvpEnable-0-transport-failure"
+    ],
+    "operation": "DcPowerSupplyOvpEnable"
+  },
+  {
+    "cases": [
+      "siglent.spd3303x|B|DcPowerSupplyOvpLevel-0",
+      "siglent.spd3303x|B|DcPowerSupplyOvpLevel-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.spd3303x",
+    "negativeCases": [
+      "siglent.spd3303x|B|DcPowerSupplyOvpLevel-0-transport-failure"
+    ],
+    "operation": "DcPowerSupplyOvpLevel"
+  },
+  {
+    "cases": [
+      "siglent.spd3303x|B|DcPowerSupplyOvpQuery-0",
+      "siglent.spd3303x|B|DcPowerSupplyOvpQuery-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.spd3303x",
+    "negativeCases": [
+      "siglent.spd3303x|B|DcPowerSupplyOvpQuery-0-transport-failure"
+    ],
+    "operation": "DcPowerSupplyOvpQuery"
+  },
+  {
+    "cases": [
+      "siglent.spd3303x|B|DcPowerSupplyReadCurrent-0",
+      "siglent.spd3303x|B|DcPowerSupplyReadCurrent-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.spd3303x",
+    "negativeCases": [
+      "siglent.spd3303x|B|DcPowerSupplyReadCurrent-0-transport-failure"
+    ],
+    "operation": "DcPowerSupplyReadCurrent"
+  },
+  {
+    "cases": [
+      "siglent.spd3303x|B|DcPowerSupplyReadVoltage-0",
+      "siglent.spd3303x|B|DcPowerSupplyReadVoltage-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.spd3303x",
+    "negativeCases": [
+      "siglent.spd3303x|B|DcPowerSupplyReadVoltage-0-transport-failure"
+    ],
+    "operation": "DcPowerSupplyReadVoltage"
+  },
+  {
+    "cases": [
+      "siglent.spd3303x|B|DcPowerSupplySetCurrentLimit-0",
+      "siglent.spd3303x|B|DcPowerSupplySetCurrentLimit-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.spd3303x",
+    "negativeCases": [
+      "siglent.spd3303x|B|DcPowerSupplySetCurrentLimit-0-transport-failure"
+    ],
+    "operation": "DcPowerSupplySetCurrentLimit"
+  },
+  {
+    "cases": [
+      "siglent.spd3303x|B|DcPowerSupplySetSenseMode-0",
+      "siglent.spd3303x|B|DcPowerSupplySetSenseMode-1",
+      "siglent.spd3303x|B|DcPowerSupplySetSenseMode-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.spd3303x",
+    "negativeCases": [
+      "siglent.spd3303x|B|DcPowerSupplySetSenseMode-0-transport-failure"
+    ],
+    "operation": "DcPowerSupplySetSenseMode"
+  },
+  {
+    "cases": [
+      "siglent.spd3303x|B|DcPowerSupplySetVoltage-0",
+      "siglent.spd3303x|B|invalid-DcPowerSupplySetVoltage",
+      "siglent.spd3303x|B|DcPowerSupplySetVoltage-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.spd3303x",
+    "negativeCases": [
+      "siglent.spd3303x|B|invalid-DcPowerSupplySetVoltage",
+      "siglent.spd3303x|B|DcPowerSupplySetVoltage-0-transport-failure"
+    ],
+    "operation": "DcPowerSupplySetVoltage"
+  },
+  {
+    "cases": [
+      "siglent.spd3303x|B|QueryIdentity-0",
+      "siglent.spd3303x|B|QueryIdentity-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.spd3303x",
+    "negativeCases": [
+      "siglent.spd3303x|B|QueryIdentity-0-transport-failure"
+    ],
+    "operation": "QueryIdentity"
+  },
+  {
+    "cases": [
+      "siglent.spd3303x|B|Reset-0",
+      "siglent.spd3303x|B|Reset-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.spd3303x",
+    "negativeCases": [
+      "siglent.spd3303x|B|Reset-0-transport-failure"
+    ],
+    "operation": "Reset"
+  },
+  {
+    "cases": [
+      "siglent.spd3303x|B|Shutdown-0",
+      "siglent.spd3303x|U|unknown-Shutdown",
+      "siglent.spd3303x|B|Shutdown-0-transport-failure"
+    ],
+    "disposition": "explicit-inventory-binding-required",
+    "driver": "siglent.spd3303x",
+    "negativeCases": [
+      "siglent.spd3303x|U|unknown-Shutdown",
+      "siglent.spd3303x|B|Shutdown-0-transport-failure"
+    ],
+    "operation": "Shutdown"
+  },
+  {
+    "cases": [
+      "siglent.ssa3021x|B|QueryIdentity-0",
+      "siglent.ssa3021x|B|QueryIdentity-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.ssa3021x",
+    "negativeCases": [
+      "siglent.ssa3021x|B|QueryIdentity-0-transport-failure"
+    ],
+    "operation": "QueryIdentity"
+  },
+  {
+    "cases": [
+      "siglent.ssa3021x|B|Reset-0",
+      "siglent.ssa3021x|B|Reset-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.ssa3021x",
+    "negativeCases": [
+      "siglent.ssa3021x|B|Reset-0-transport-failure"
+    ],
+    "operation": "Reset"
+  },
+  {
+    "cases": [
+      "siglent.ssa3021x|B|Shutdown-0",
+      "siglent.ssa3021x|B|Shutdown-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.ssa3021x",
+    "negativeCases": [
+      "siglent.ssa3021x|B|Shutdown-0-transport-failure"
+    ],
+    "operation": "Shutdown"
+  },
+  {
+    "cases": [
+      "siglent.ssa3021x|B|SpectrumAnalyzerFetchTraceAscii-0",
+      "siglent.ssa3021x|B|SpectrumAnalyzerFetchTraceAscii-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.ssa3021x",
+    "negativeCases": [
+      "siglent.ssa3021x|B|SpectrumAnalyzerFetchTraceAscii-0-transport-failure"
+    ],
+    "operation": "SpectrumAnalyzerFetchTraceAscii"
+  },
+  {
+    "cases": [
+      "siglent.ssa3021x|B|SpectrumAnalyzerMarkerPeak-0",
+      "siglent.ssa3021x|B|SpectrumAnalyzerMarkerPeak-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.ssa3021x",
+    "negativeCases": [
+      "siglent.ssa3021x|B|SpectrumAnalyzerMarkerPeak-0-transport-failure"
+    ],
+    "operation": "SpectrumAnalyzerMarkerPeak"
+  },
+  {
+    "cases": [
+      "siglent.ssa3021x|B|SpectrumAnalyzerMarkerX-0",
+      "siglent.ssa3021x|B|SpectrumAnalyzerMarkerX-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.ssa3021x",
+    "negativeCases": [
+      "siglent.ssa3021x|B|SpectrumAnalyzerMarkerX-0-transport-failure"
+    ],
+    "operation": "SpectrumAnalyzerMarkerX"
+  },
+  {
+    "cases": [
+      "siglent.ssa3021x|B|SpectrumAnalyzerMarkerY-0",
+      "siglent.ssa3021x|B|SpectrumAnalyzerMarkerY-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.ssa3021x",
+    "negativeCases": [
+      "siglent.ssa3021x|B|SpectrumAnalyzerMarkerY-0-transport-failure"
+    ],
+    "operation": "SpectrumAnalyzerMarkerY"
+  },
+  {
+    "cases": [
+      "siglent.ssa3021x|B|SpectrumAnalyzerSetCenterFrequency-0",
+      "siglent.ssa3021x|B|SpectrumAnalyzerSetCenterFrequency-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.ssa3021x",
+    "negativeCases": [
+      "siglent.ssa3021x|B|SpectrumAnalyzerSetCenterFrequency-0-transport-failure"
+    ],
+    "operation": "SpectrumAnalyzerSetCenterFrequency"
+  },
+  {
+    "cases": [
+      "siglent.ssa3021x|B|SpectrumAnalyzerSetRbw-0",
+      "siglent.ssa3021x|B|SpectrumAnalyzerSetRbw-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.ssa3021x",
+    "negativeCases": [
+      "siglent.ssa3021x|B|SpectrumAnalyzerSetRbw-0-transport-failure"
+    ],
+    "operation": "SpectrumAnalyzerSetRbw"
+  },
+  {
+    "cases": [
+      "siglent.ssa3021x|B|SpectrumAnalyzerSetRefLevel-0",
+      "siglent.ssa3021x|B|SpectrumAnalyzerSetRefLevel-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.ssa3021x",
+    "negativeCases": [
+      "siglent.ssa3021x|B|SpectrumAnalyzerSetRefLevel-0-transport-failure"
+    ],
+    "operation": "SpectrumAnalyzerSetRefLevel"
+  },
+  {
+    "cases": [
+      "siglent.ssa3021x|B|SpectrumAnalyzerSetSpan-0",
+      "siglent.ssa3021x|B|SpectrumAnalyzerSetSpan-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.ssa3021x",
+    "negativeCases": [
+      "siglent.ssa3021x|B|SpectrumAnalyzerSetSpan-0-transport-failure"
+    ],
+    "operation": "SpectrumAnalyzerSetSpan"
+  },
+  {
+    "cases": [
+      "siglent.ssa3021x|B|SpectrumAnalyzerSetVbw-0",
+      "siglent.ssa3021x|B|SpectrumAnalyzerSetVbw-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.ssa3021x",
+    "negativeCases": [
+      "siglent.ssa3021x|B|SpectrumAnalyzerSetVbw-0-transport-failure"
+    ],
+    "operation": "SpectrumAnalyzerSetVbw"
+  },
+  {
+    "cases": [
+      "siglent.ssa3021x|B|SpectrumAnalyzerSingleSweep-0",
+      "siglent.ssa3021x|B|SpectrumAnalyzerSingleSweep-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.ssa3021x",
+    "negativeCases": [
+      "siglent.ssa3021x|B|SpectrumAnalyzerSingleSweep-0-transport-failure"
+    ],
+    "operation": "SpectrumAnalyzerSingleSweep"
+  },
+  {
+    "cases": [
+      "siglent.ssa3021x|B|SpectrumAnalyzerSweepContinuous-0",
+      "siglent.ssa3021x|B|SpectrumAnalyzerSweepContinuous-1",
+      "siglent.ssa3021x|B|SpectrumAnalyzerSweepContinuous-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.ssa3021x",
+    "negativeCases": [
+      "siglent.ssa3021x|B|SpectrumAnalyzerSweepContinuous-0-transport-failure"
+    ],
+    "operation": "SpectrumAnalyzerSweepContinuous"
+  },
+  {
+    "cases": [
+      "siglent.ssa3021x|B|SpectrumAnalyzerWaitOpc-0",
+      "siglent.ssa3021x|B|SpectrumAnalyzerWaitOpc-0-transport-failure"
+    ],
+    "disposition": "implemented-source-derived-no-hardware-evidence",
+    "driver": "siglent.ssa3021x",
+    "negativeCases": [
+      "siglent.ssa3021x|B|SpectrumAnalyzerWaitOpc-0-transport-failure"
+    ],
+    "operation": "SpectrumAnalyzerWaitOpc"
+  }
+]

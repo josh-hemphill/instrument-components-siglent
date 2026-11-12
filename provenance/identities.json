@@ -1,0 +1,192 @@
+[
+  {
+    "driver": "siglent.sdg2042x",
+    "hints": [
+      {
+        "evidence": "identity-hint-only",
+        "hardwareValidated": false,
+        "kinds": [
+          "FunctionGenerator"
+        ],
+        "legacyResolution": {
+          "FunctionGenerator": {
+            "commandKeys": [
+              "burst_count",
+              "burst_state",
+              "burst_trigger",
+              "output_enable",
+              "set_amplitude",
+              "set_duty_cycle",
+              "set_frequency",
+              "set_load",
+              "set_offset",
+              "set_waveform"
+            ],
+            "hardwareValidated": false,
+            "implicitFallbackMustBecomeExplicit": true,
+            "profile": "generic_fgen"
+          }
+        },
+        "manufacturer": "Siglent Technologies",
+        "migration": "required",
+        "model": "SDG2042X",
+        "repository": "instrument-components-siglent"
+      }
+    ],
+    "kinds": [
+      "FunctionGenerator"
+    ],
+    "defaultChannels": "legacy supported-ID hints, not physical completeness",
+    "defaultOutputs": "unknown",
+    "temperatureUnit": "Unknown",
+    "hardwareValidated": false,
+    "shutdownSteps": []
+  },
+  {
+    "driver": "siglent.sds1104x-e",
+    "hints": [
+      {
+        "evidence": "identity-hint-only",
+        "hardwareValidated": false,
+        "kinds": [
+          "Oscilloscope"
+        ],
+        "legacyResolution": {
+          "Oscilloscope": {
+            "commandKeys": [
+              "channel_coupling",
+              "channel_display",
+              "measure_frequency",
+              "measure_vpp",
+              "run",
+              "set_channel_scale",
+              "set_timebase_scale",
+              "single",
+              "stop",
+              "trigger_level",
+              "trigger_slope",
+              "trigger_source",
+              "waveform_data",
+              "waveform_format_ascii",
+              "waveform_preamble",
+              "waveform_source"
+            ],
+            "hardwareValidated": false,
+            "implicitFallbackMustBecomeExplicit": true,
+            "profile": "generic_scope"
+          }
+        },
+        "manufacturer": "Siglent Technologies",
+        "migration": "required",
+        "model": "SDS1104X-E",
+        "repository": "instrument-components-siglent"
+      }
+    ],
+    "kinds": [
+      "Oscilloscope"
+    ],
+    "defaultChannels": "legacy supported-ID hints, not physical completeness",
+    "defaultOutputs": "modeled outputless class",
+    "temperatureUnit": "Unknown",
+    "hardwareValidated": false,
+    "shutdownSteps": [
+      {
+        "command": ":STOP",
+        "response": "Write"
+      }
+    ]
+  },
+  {
+    "driver": "siglent.spd3303x",
+    "hints": [
+      {
+        "evidence": "identity-hint-only",
+        "hardwareValidated": false,
+        "kinds": [
+          "DcPowerSupply"
+        ],
+        "legacyResolution": {
+          "DcPowerSupply": {
+            "commandKeys": [
+              "output_enable",
+              "output_state_query",
+              "ovp_enable",
+              "ovp_level",
+              "ovp_query",
+              "read_current",
+              "read_voltage",
+              "sense_enable",
+              "set_current_limit",
+              "set_voltage"
+            ],
+            "hardwareValidated": false,
+            "implicitFallbackMustBecomeExplicit": true,
+            "profile": "generic_dcpwr"
+          }
+        },
+        "manufacturer": "Siglent Technologies",
+        "migration": "required",
+        "model": "SPD3303X",
+        "repository": "instrument-components-siglent"
+      }
+    ],
+    "kinds": [
+      "DcPowerSupply"
+    ],
+    "defaultChannels": "legacy supported-ID hints, not physical completeness",
+    "defaultOutputs": "unknown",
+    "temperatureUnit": "Unknown",
+    "hardwareValidated": false,
+    "shutdownSteps": []
+  },
+  {
+    "driver": "siglent.ssa3021x",
+    "hints": [
+      {
+        "evidence": "identity-hint-only",
+        "hardwareValidated": false,
+        "kinds": [
+          "SpectrumAnalyzer"
+        ],
+        "legacyResolution": {
+          "SpectrumAnalyzer": {
+            "commandKeys": [
+              "center_frequency",
+              "marker_peak",
+              "marker_x",
+              "marker_y",
+              "rbw",
+              "ref_level",
+              "single_sweep",
+              "span",
+              "sweep_continuous",
+              "trace_data",
+              "vbw",
+              "wait_opc"
+            ],
+            "hardwareValidated": false,
+            "implicitFallbackMustBecomeExplicit": true,
+            "profile": "generic_specan"
+          }
+        },
+        "manufacturer": "Siglent Technologies",
+        "migration": "required",
+        "model": "SSA3021X",
+        "repository": "instrument-components-siglent"
+      }
+    ],
+    "kinds": [
+      "SpectrumAnalyzer"
+    ],
+    "defaultChannels": "legacy supported-ID hints, not physical completeness",
+    "defaultOutputs": "modeled outputless class",
+    "temperatureUnit": "Unknown",
+    "hardwareValidated": false,
+    "shutdownSteps": [
+      {
+        "command": ":INIT:CONT OFF",
+        "response": "Write"
+      }
+    ]
+  }
+]

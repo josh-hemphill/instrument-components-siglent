@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "rustPackage": "instrument-driver-siglent",
+  "nugetPackage": "InstrumentComponents.Drivers.Siglent",
+  "dotnetProject": "dotnet/InstrumentComponents.Drivers.Siglent/InstrumentComponents.Drivers.Siglent.csproj",
+  "version": "0.2.0-alpha.1",
+  "hardwareValidated": false
+}
