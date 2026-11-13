@@ -1,17 +1,17 @@
 # Instrument Components Siglent drivers
 
 Independently packaged Rust (`instrument-driver-siglent`) and .NET (`InstrumentComponents.Drivers.Siglent`)
-source-derived profiles, version `0.2.0-alpha.1`. These are published previews;
+source-derived profiles, coordinated release target `0.3.0-alpha.1`. Check registries and the matching release for availability;
 no devices in this library have physical bench validation yet.
 
 ## Install and try the preview
 
 ```sh
-cargo add instrument-driver-siglent@=0.2.0-alpha.1
-dotnet add package InstrumentComponents.Drivers.Siglent --version 0.2.0-alpha.1
+cargo add instrument-driver-siglent@=0.3.0-alpha.1
+dotnet add package InstrumentComponents.Drivers.Siglent --version "[0.3.0-alpha.1]"
 ```
 
-Use the [complete hardware-free Rust/C# guide](https://github.com/josh-hemphill/instrument-components/blob/72015932f9b168ac7d182fcb5ca7a367318505b8/docs-site/docs/getting-started.md) before connecting equipment. It uses exact public package versions and an in-memory development connector. Select this family's factories explicitly; adding a package never probes or opens hardware. The [published source tag](https://github.com/josh-hemphill/instrument-components-siglent/tree/driver-v0.2.0-alpha.1) contains this release; the default branch remains a scaffold until its implementation PR is merged.
+Use the [complete hardware-free Rust/C# guide](https://github.com/josh-hemphill/instrument-components/blob/v0.3.0-alpha.1/docs-site/docs/getting-started.md) before connecting equipment. It uses exact public package versions and an in-memory development connector. Select this family's factories explicitly; adding a package never probes or opens hardware. The [release source tag](https://github.com/josh-hemphill/instrument-components-siglent/tree/driver-v0.3.0-alpha.1) selects the coordinated release once published; the latest branch contains ongoing development.
 
 
 Models and aliases are passive hints carried forward from main commit
@@ -53,7 +53,7 @@ plans. Generated Rust/C# files contain static data and require no runtime JSON.
 `provenance/source/` is historical audit evidence, excluded from production
 packages. The SDK TestKit and Tokio consumers are development-only dependencies.
 
-The public 0.2.0-alpha.1 SDK and driver packages are available on crates.io and NuGet. The release workflow tests fresh public-package consumers on Linux/Windows x64 and .NET 8/10.
+The previous 0.2.0-alpha.1 SDK and driver packages are available on crates.io and NuGet. The release workflow tests fresh public-package consumers on Linux/Windows x64 and .NET 8/10.
 
 For pre-publication development, CI also uses checksummed release-form SDK archives from
 a pinned main workflow. The consumer job checks out only this repository and
@@ -72,3 +72,7 @@ Release tags are immutable. A subsequent release needs a new version, matching S
 Use a `ConnectionBinding` containing the canonical driver ID, exact endpoint and inventory. C# accepts `connections:` in `Drivers.Factories`/`NativeFactories`. Rust exports `sync_factories_for_connections`, `native_factories_for_connections` and `combined_factories_for_connections`. All bindings are frozen and validated before IO. Two endpoints may use the same driver with different inventories. Unknown output inventory never inherits another endpoint's complete output list. Model-wide defaults remain available separately. Unknown driver IDs and normalized duplicate endpoints fail explicitly.
 
 The committed exact wire cases now execute through endpoint bindings, including sparse channel IDs, per-operation transport failures and closed-handle checks. Source evidence remains distinct from physical evidence. All model hints in this repository are in initial scope; physical validation is pending.
+
+## Coordinated 0.3 release
+
+The 0.3.0-alpha.1 distribution includes the current merged software implementation and uses exact matching SDK dependencies. The 0.2 exclusions and historical proof records above describe that earlier release. New device additions remain hardware-unvalidated and require explicit commissioning/configuration. Core production packages do not bundle this driver. Release workflows run Windows/Linux x64 and .NET 8/10 package consumers; the Keysight release runs the final all-five public composition gate.
